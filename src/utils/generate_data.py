@@ -8,5 +8,3 @@ def frame2speed_array(fpath):
     for i in range(len(frame2speed)):
         frame2speed[i] = float(frame2speed[i].strip())
     return frame2speed
-
-# TODO need to implement equalize_adapthist next

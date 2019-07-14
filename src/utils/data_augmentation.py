@@ -10,3 +10,5 @@ def rgb2grey(imgs):
     for i in range(len(imgs)):
         converted_imgs[i,:,:] = cv2.cvtColor(imgs[i,:,:], cv2.COLOR_BGR2GRAY)
     return converted_imgs
+
+# TODO need to implement equalize adapthist next
